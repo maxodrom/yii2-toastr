@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
  * @author Odai Alali <odai.alali@gmail.com>
  */
 class ToastrAsset extends AssetBundle{
-    public $sourcePath = '@bower/toastr';
+    public $sourcePath = '@npm/toastr';
     public $css = [
         'toastr.min.css',
     ];
