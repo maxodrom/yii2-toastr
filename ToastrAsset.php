@@ -13,12 +13,12 @@ use yii\web\AssetBundle;
  * @author Odai Alali <odai.alali@gmail.com>
  */
 class ToastrAsset extends AssetBundle{
-    public $sourcePath = '@npm/toastr';
+    public $sourcePath = '@npm/toastr/build';
     public $css = [
         'toastr.min.css',
     ];
     public $js = [
-        'toastr.js',
+        'toastr.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
